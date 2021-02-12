@@ -1,27 +1,34 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "../styles/Haiku.scss";
+import haikus from "../data/haikus";
 
 const Haiku = () => {
-  const [show, setShow] = useState(false);
+  const [selection, setSelection] = useState(null);
+  const [currentIndex, setCurrentIndex] = useState(0);
 
-  if (show) {
-    return (
-      <section className="haiku-container">
+  const findHaiku = () => {
+    const index = () => {
+      let number = Math.floor(Math.random() * haikus.length);
+      return number === currentIndex ? index() : number;
+    };
+    setCurrentIndex(index());
+    setSelection({ ...haikus[currentIndex] });
+  };
+
+  return (
+    <section className="haiku-container">
+      {selection && (
         <div>
-          <p>A huge frog and I</p>
-          <p>staring at each other</p>
-          <p>neither of us moves</p>
+          <p>{selection.first}</p>
+          <p>{selection.second}</p>
+          <p>{selection.third}</p>
+          <hr />
+          <p className="author"> ~ {selection.author}</p>
         </div>
-        <button>HAIKU ME!</button>
-      </section>
-    );
-  } else {
-    return (
-      <section className="haiku-container">
-        <button onClick={() => setShow(true)}>HAIKU ME!</button>
-      </section>
-    );
-  }
+      )}
+      <button onClick={findHaiku}>HAIKU ME!</button>
+    </section>
+  );
 };
 
 export default Haiku;

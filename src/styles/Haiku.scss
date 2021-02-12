@@ -1,5 +1,5 @@
 .haiku-container {
-  height: 100vh;
+  height: 90vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -10,14 +10,29 @@
     align-items: center;
     background-color: rgba(192, 192, 192, 0.6);
     padding: 3rem;
-    border-radius: 0 160px 0 160px;
+    border-radius: 0 120px 0 120px;
     box-shadow: 0 3px 10px black;
     transition: 0.3s ease-in-out;
     animation: fadeInSlide 0.6s;
+    hr {
+      width: 100%;
+      margin-bottom: 2rem;
+      border: 1px solid rgba(255, 255, 255, 0.8);
+      border-top: 0;
+      box-shadow: 0 2px 4px black;
+    }
     p {
       font-family: "Eagle Lake", cursive;
       color: white;
-      font-size: 3rem;
+      font-size: 2rem;
+      text-shadow: 0 3px 10px black;
+      margin-bottom: 2rem;
+      transition: 0.3s ease-in-out;
+    }
+    .author {
+      font-family: "Eagle Lake", cursive;
+      color: white;
+      font-size: 1.5rem;
       text-shadow: 0 3px 10px black;
       margin-bottom: 2rem;
       transition: 0.3s ease-in-out;
@@ -35,15 +50,14 @@
     border: none;
     appearance: none;
     background: none;
-    background-color: rgba(192, 192, 192, 0.4);
+    background-color: rgba(192, 192, 192, 0.3);
     border-radius: 0.5rem;
     cursor: pointer;
     box-shadow: 0 3px 10px black;
-    margin-bottom: 6rem;
     transition: 0.3s ease-in-out;
-    animation: fadeInSlide 0.6s;
     &:hover {
-      background-color: rgba(192, 192, 192, 0.6);
+      background-color: rgba(192, 192, 192, 0.8);
+      animation: bounce 1.5s ease-in-out infinite;
     }
   }
 }
@@ -56,5 +70,15 @@
   to {
     opacity: 1;
     transform: translateX(0px);
+  }
+}
+
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-6px);
   }
 }
