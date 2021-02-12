@@ -1,0 +1,46 @@
+.haiku-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(192, 192, 192, 0.6);
+    padding: 3rem;
+    border-radius: 0 160px 0 160px;
+    box-shadow: 0 3px 10px black;
+    transition: 0.3s ease-in-out;
+    p {
+      font-family: "Eagle Lake", cursive;
+      color: white;
+      font-size: 3rem;
+      text-shadow: 0 3px 10px black;
+      margin-bottom: 2rem;
+    }
+  }
+  button {
+    font-family: "Eagle Lake", cursive;
+    font-size: 1.5rem;
+    text-shadow: 0 3px 5px black;
+    color: white;
+    letter-spacing: 2px;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    margin-top: 2rem;
+    outline: none;
+    border: none;
+    appearance: none;
+    background: none;
+    background-color: rgba(192, 192, 192, 0.3);
+    border-radius: 0.5rem;
+    cursor: pointer;
+    box-shadow: 0 3px 10px black;
+    margin-bottom: 6rem;
+    transition: 0.3s ease-in-out;
+    &:hover {
+      background-color: rgba(192, 192, 192, 0.6);
+    }
+  }
+}
