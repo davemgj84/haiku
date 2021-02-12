@@ -25,5 +25,5 @@ Once dependencies have been installed, and you may simply run `npm start` to ope
 
 ## Screenshots
 
-![Haiku-Me!](url)
-![Haiku-Me!](url)
+![Haiku-Me!](https://github.com/davemgj84/haiku/blob/master/docs/haiku-me.png?raw=true)
+![Haiku-Me!](https://github.com/davemgj84/haiku/blob/master/docs/haiku-me2.png?raw=true)
