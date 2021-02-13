@@ -97,6 +97,13 @@ const haikus = [
     third: "With each golden dawn",
     author: "James May",
   },
+  {
+    id: 14,
+    first: "Friday night at home",
+    second: "Sanctuary from the cold",
+    third: "A good book and tea",
+    author: "James May",
+  },
 ];
 
 export default haikus;
