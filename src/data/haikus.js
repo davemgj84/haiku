@@ -90,6 +90,13 @@ const haikus = [
     third: "nine bottles of beer",
     author: "Kids in the Hall",
   },
+  {
+    id: 13,
+    first: "Little Honda shines",
+    second: "Like a second sun rising",
+    third: "With each golden dawn",
+    author: "James May",
+  },
 ];
 
 export default haikus;

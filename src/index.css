@@ -11,9 +11,8 @@ body {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("../src/assets/forest1.jpg");
   background-size: cover;
-  /* background-attachment: fixed; */
-  /* background-position: bottom; */
-  transition: 0.3s ease;
+  background-attachment: fixed;
+  background-position: center;
 }
 
 code {

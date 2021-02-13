@@ -1,79 +1,38 @@
-.haiku-container {
-  height: 90vh;
+.haiku {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  div {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: rgba(192, 192, 192, 0.6);
-    padding: 3rem;
-    border-radius: 0 120px 0 120px;
-    box-shadow: 0 3px 10px black;
-    transition: 0.3s ease-in-out;
-    animation: fadeInSlide 0.6s;
-    hr {
-      width: 100%;
-      margin-bottom: 2rem;
-      border: 1px solid rgba(255, 255, 255, 0.8);
-      border-top: 0;
-      box-shadow: 0 2px 4px black;
-    }
-    p {
-      font-family: "Eagle Lake", cursive;
-      color: white;
-      font-size: 2rem;
-      text-shadow: 0 3px 5px black;
-      margin-bottom: 2rem;
-    }
-    .author {
-      font-size: 1.5rem;
-      text-shadow: 0 2px 5px black;
-    }
+  background-color: rgba(192, 192, 192, 0.6);
+  padding: 3rem;
+  border-radius: 0 120px 0 120px;
+  box-shadow: 0 3px 10px black;
+  transition: 0.5s ease-in-out;
+  animation: fadeIn 1s;
+  hr {
+    width: 100%;
+    margin-bottom: 2rem;
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    border-top: 0;
+    box-shadow: 0 2px 4px black;
   }
-  button {
+  p {
     font-family: "Eagle Lake", cursive;
-    font-size: 1.5rem;
-    text-shadow: 0 3px 5px black;
     color: white;
-    letter-spacing: 2px;
-    padding: 0.5rem 1rem 0.5rem 1rem;
-    margin-top: 3rem;
-    outline: none;
-    border: none;
-    appearance: none;
-    background: none;
-    background-color: rgba(192, 192, 192, 0.3);
-    border-radius: 0.5rem;
-    cursor: pointer;
-    box-shadow: 0 3px 10px black;
-    transition: 0.5s ease-in-out;
-    &:hover {
-      background-color: rgba(192, 192, 192, 0.8);
-      animation: bounce 1.5s ease-in-out infinite;
-    }
+    font-size: 2rem;
+    text-shadow: 0 3px 5px black;
+    margin-bottom: 2rem;
+  }
+  .author {
+    font-size: 1.5rem;
+    text-shadow: 0 2px 5px black;
   }
 }
 
-@keyframes fadeInSlide {
+@keyframes fadeIn {
   from {
     opacity: 0;
-    transform: translateX(-20px);
   }
   to {
     opacity: 1;
-    transform: translateX(0px);
-  }
-}
-
-@keyframes bounce {
-  0%,
-  100% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(-6px);
   }
 }

@@ -1,10 +1,10 @@
 import React from "react";
-import Haiku from "./components/Haiku";
+import HaikuContainer from "./components/HaikuContainer";
 
 const App = () => {
   return (
     <div className="App">
-      <Haiku />
+      <HaikuContainer />
     </div>
   );
 };
