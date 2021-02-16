@@ -1,5 +1,6 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import Haiku from "./Haiku";
+import Banner from "./Banner";
 import "../styles/HaikuContainer.scss";
 import haikuArray from "../data/haikuArray";
 
@@ -27,7 +28,10 @@ const HaikuContainer = (props) => {
           setShow={props.setShow}
         />
       )}
-      <button onClick={findHaiku}>HAIKU ME!</button>
+      <button onClick={findHaiku}>
+        <i className="fas fa-mouse"></i> Haiku
+      </button>
+      <Banner show={props.show} setShow={props.setShow} />
     </section>
   );
 };

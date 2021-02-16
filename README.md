@@ -1,4 +1,4 @@
-# Haiku Me!
+# Haiku
 
 ## Work In Progress
 
@@ -6,11 +6,7 @@
 
 - Just to put a smile on people's faces :)
 
-- Working to expand the amount of Haikus to at least 100 to start.
-
-## Stretch Goal
-
-- I would like to also add another button that will actually generate a Haiku. This is still a work in progress as checking syllable count is proving challenging. I think there could be some hilarious results with a computer generated Haiku. Stay Tuned...
+- Small writeup about Haiku and the history, with source material linked.
 
 ## Instructions to run locally
 
@@ -25,5 +21,6 @@ Once dependencies have been installed, and you may simply run `npm start` to ope
 
 ## Screenshots
 
-![Haiku-Me!](https://github.com/davemgj84/haiku/blob/master/docs/haiku-me.png?raw=true)
-![Haiku-Me!](https://github.com/davemgj84/haiku/blob/master/docs/haiku-me2.png?raw=true)
+![Haiku-Home](https://github.com/davemgj84/haiku/blob/master/docs/Haiku.png?raw=true)
+![Haiku-Poem](https://github.com/davemgj84/haiku/blob/master/docs/Haiku2.png?raw=true)
+![Haiku-History](https://github.com/davemgj84/haiku/blob/master/docs/Haiku-History.png?raw=true)

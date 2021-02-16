@@ -1,0 +1,82 @@
+.info-box {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(162, 162, 162, 1);
+  width: 50%;
+  height: 75%;
+  border-radius: 0 120px 0 120px;
+  box-shadow: 0 3px 10px black;
+  transition: 0.5s ease-in-out;
+  animation: fadeIn 0.5s;
+  .history {
+    overflow-y: scroll;
+    width: 80%;
+    height: 70%;
+    color: white;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    text-shadow: 0 1px 2px black;
+    h2 {
+      font-size: 28px;
+      font-weight: bold;
+      letter-spacing: 2px;
+      margin-bottom: 2rem;
+    }
+    p {
+      margin-right: 2rem;
+      font-size: 20px;
+      line-height: 2.5rem;
+      letter-spacing: 1px;
+      margin-bottom: 2rem;
+    }
+    a {
+      color: white;
+      transition: 0.3s ease-in-out;
+      text-decoration: none;
+      &:hover {
+        color: #c0c0c0;
+      }
+    }
+  }
+  .fa-times-circle {
+    position: absolute;
+    right: 2rem;
+    bottom: 2rem;
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 1.5rem;
+    text-shadow: 0 1px 4px black;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+    &:hover {
+      color: #999999;
+    }
+  }
+}
+
+// stylized scrollbars:
+.history::-webkit-scrollbar {
+  width: 9px;
+}
+.history::-webkit-scrollbar-track {
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+.history::-webkit-scrollbar-thumb {
+  border: solid 1px rgba(0, 0, 0, 0.4);
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background: rgba(162, 162, 162, 1);
+  box-shadow: none;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.4);
+}
+.history::-webkit-scrollbar-thumb:window-inactive {
+  background: #acacac;
+}
