@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "../styles/Haiku.scss";
 
 const Haiku = (props) => {
@@ -8,7 +8,15 @@ const Haiku = (props) => {
       <p>{props.second}</p>
       <p>{props.third}</p>
       <hr />
-      <p className="author"> ~ {props.author}</p>
+      <div className="author-and-info">
+        <p className="author"> ~ {props.author}</p>
+        <div className="info-button">
+          <i
+            onClick={() => props.setShow((prev) => !prev)}
+            className="fas fa-info-circle"
+          ></i>
+        </div>
+      </div>
     </div>
   );
 };

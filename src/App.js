@@ -1,10 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import HaikuContainer from "./components/HaikuContainer";
+import Banner from "./components/Banner";
 
 const App = () => {
+  const [show, setShow] = useState(false);
+
   return (
     <div className="App">
-      <HaikuContainer />
+      <HaikuContainer setShow={setShow} />
+      <Banner show={show} setShow={setShow} />
     </div>
   );
 };

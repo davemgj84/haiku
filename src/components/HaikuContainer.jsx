@@ -1,19 +1,19 @@
 import React, { useEffect, useState } from "react";
 import Haiku from "./Haiku";
 import "../styles/HaikuContainer.scss";
-import haikus from "../data/haikus";
+import haikuArray from "../data/haikuArray";
 
-const HaikuContainer = () => {
+const HaikuContainer = (props) => {
   const [selection, setSelection] = useState(null);
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const findHaiku = () => {
     const index = () => {
-      const number = Math.floor(Math.random() * haikus.length);
+      const number = Math.floor(Math.random() * haikuArray.length);
       return number === currentIndex ? index() : number;
     };
     setCurrentIndex(index());
-    setSelection({ ...haikus[currentIndex] });
+    setSelection({ ...haikuArray[currentIndex] });
   };
 
   return (
@@ -24,6 +24,7 @@ const HaikuContainer = () => {
           second={selection.second}
           third={selection.third}
           author={selection.author}
+          setShow={props.setShow}
         />
       )}
       <button onClick={findHaiku}>HAIKU ME!</button>
