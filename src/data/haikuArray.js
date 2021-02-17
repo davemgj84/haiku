@@ -15,10 +15,10 @@ const haikuArray = [
   },
   {
     id: 2,
-    first: "The summer river",
-    second: "although there is a bridge, my horse",
-    third: "goes through the water",
-    author: "Masaoka Shiki",
+    first: "The taste",
+    second: "Of rain",
+    third: "—Why kneel?",
+    author: "Jack Kerouac",
   },
   {
     id: 3,
@@ -29,10 +29,10 @@ const haikuArray = [
   },
   {
     id: 4,
-    first: "The light of a candle",
-    second: "Is transferred to another candle",
-    third: "Spring twilight",
-    author: "Yosa Buson",
+    first: "On a leafless branch",
+    second: "A crow comes to rest",
+    third: "Autumn nightfall",
+    author: "Matsuo Bashō",
   },
   {
     id: 5,
@@ -158,7 +158,7 @@ const haikuArray = [
     first: "The lamp once out",
     second: "Cool stars enter",
     third: "The window frame",
-    author: "Natsume Soseki",
+    author: "Natsume Sōseki",
   },
   {
     id: 23,
@@ -180,6 +180,13 @@ const haikuArray = [
     second: "even the monkey",
     third: "seems to want a raincoat",
     author: "Matsuo Bashō",
+  },
+  {
+    id: 26,
+    first: "The crow has flown away",
+    second: "Swaying in the evening sun",
+    third: "A leafless tree",
+    author: "Natsume Sōseki",
   },
 ];
 
