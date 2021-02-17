@@ -64,6 +64,18 @@
   .info-box {
     width: 350px;
     height: 430px;
+    border-radius: 30px;
+    .history {
+      height: 90%;
+      width: 90%;
+      p {
+        margin-right: 1rem;
+      }
+    }
+    .fa-times-circle {
+      right: 0.7rem;
+      top: 0.9rem;
+    }
   }
 }
 
@@ -77,7 +89,6 @@
 @media screen and (max-width: 320px) {
   .info-box {
     width: 300px;
-    border-radius: 30px;
     .history {
       p {
         line-height: 1.75rem;
@@ -90,6 +101,7 @@
   .info-box {
     width: 260px;
     .history {
+      width: 88%;
       h2 {
         font-size: 1.25rem;
       }
