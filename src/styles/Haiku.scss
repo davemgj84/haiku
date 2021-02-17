@@ -6,6 +6,8 @@
   padding: 3rem;
   border-radius: 0 120px 0 120px;
   box-shadow: 0 3px 10px black;
+  width: 700px;
+  height: 380px;
   transition: 0.5s ease-in-out;
   animation: fadeIn 1s;
   hr {
@@ -18,7 +20,7 @@
   p {
     font-family: "Eagle Lake", cursive;
     color: white;
-    font-size: 2rem;
+    font-size: 1.5rem;
     letter-spacing: 1px;
     text-shadow: 0 3px 5px black;
     margin-bottom: 2rem;

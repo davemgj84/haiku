@@ -1,21 +1,37 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Haiku from "./Haiku";
 import Banner from "./Banner";
 import "../styles/HaikuContainer.scss";
 import haikuArray from "../data/haikuArray";
 
 const HaikuContainer = (props) => {
-  const [selection, setSelection] = useState(null);
+  const [dataArray, setDataArray] = useState([]);
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [selection, setSelection] = useState(null);
 
-  const findHaiku = () => {
-    const index = () => {
-      const number = Math.floor(Math.random() * haikuArray.length);
-      return number === currentIndex ? index() : number;
-    };
-    setCurrentIndex(index());
-    setSelection({ ...haikuArray[currentIndex] });
+  const shuffle = (input) => [...input].sort(() => 0.5 - Math.random());
+
+  useEffect(() => {
+    if (currentIndex === 0) {
+      setDataArray(shuffle(haikuArray));
+    }
+  }, [currentIndex]);
+
+  const nextHaiku = () => {
+    setCurrentIndex((currentIndex + 1) % dataArray.length);
+    setSelection({ ...dataArray[currentIndex] });
   };
+
+  // This works to give me random selections, but they will repeat at times:
+
+  // const findHaiku = () => {
+  //   const index = () => {
+  //     const number = Math.floor(Math.random() * haikuArray.length);
+  //     return number === currentIndex ? index() : number;
+  //   };
+  //   setCurrentIndex(index());
+  //   setSelection({ ...haikuArray[currentIndex] });
+  // };
 
   return (
     <section className="haiku-container">
@@ -28,7 +44,7 @@ const HaikuContainer = (props) => {
           setShow={props.setShow}
         />
       )}
-      <button onClick={findHaiku}>
+      <button onClick={nextHaiku}>
         <i className="fas fa-mouse"></i> Haiku
       </button>
       <Banner show={props.show} setShow={props.setShow} />
