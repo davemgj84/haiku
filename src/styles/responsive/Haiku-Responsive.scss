@@ -116,3 +116,29 @@
     }
   }
 }
+
+@media screen and (max-height: 375px) {
+  .haiku {
+    width: 380px;
+    padding: 1rem;
+    border-radius: 0 70px 0 70px;
+    hr {
+      width: 80%;
+      margin-bottom: 0.75rem;
+    }
+    p {
+      font-size: 14px;
+      text-shadow: 0 1px 2px black;
+      margin-bottom: 0.75rem;
+    }
+    .author-and-info {
+      .author {
+        font-size: 14px;
+        text-shadow: 0 1px 2px black;
+      }
+      .info-button {
+        font-size: 1rem;
+      }
+    }
+  }
+}
