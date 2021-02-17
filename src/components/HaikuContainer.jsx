@@ -44,9 +44,7 @@ const HaikuContainer = (props) => {
           setShow={props.setShow}
         />
       )}
-      <button onClick={nextHaiku}>
-        <i className="fas fa-mouse"></i> Haiku
-      </button>
+      <button onClick={nextHaiku}>俳 Haiku</button>
       <Banner show={props.show} setShow={props.setShow} />
     </section>
   );
