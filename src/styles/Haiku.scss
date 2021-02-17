@@ -15,6 +15,7 @@
     border: 1px solid rgba(255, 255, 255, 0.8);
     border-top: 0;
     box-shadow: 0 2px 4px black;
+    transition: 0.5s ease-in-out;
   }
   p {
     font-family: "Eagle Lake", cursive;
@@ -23,6 +24,7 @@
     letter-spacing: 1px;
     text-shadow: 0 3px 5px black;
     margin-bottom: 2rem;
+    transition: 0.5s ease-in-out;
   }
   .author-and-info {
     display: flex;
@@ -32,7 +34,7 @@
     position: relative;
     .author {
       font-size: 1.5rem;
-      letter-spacing: 2px;
+      letter-spacing: 1px;
       text-shadow: 0 2px 5px black;
       margin-bottom: 0;
     }

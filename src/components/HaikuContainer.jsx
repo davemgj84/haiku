@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import Haiku from "./Haiku";
 import Banner from "./Banner";
 import "../styles/HaikuContainer.scss";
+import "../styles/responsive/HaikuContainer-Responsive.scss";
 import haikuArray from "../data/haikuArray";
 
 const HaikuContainer = (props) => {

@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "../styles/Banner.scss";
+import "../styles/responsive/Banner-Responsive.scss";
 
 const Banner = (props) => {
   if (props.show) {
