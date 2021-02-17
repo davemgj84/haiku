@@ -1,0 +1,40 @@
+@media screen and (max-width: 1440px) {
+  .haiku-container {
+    button {
+      font-size: 1.25rem;
+      text-shadow: 0 2px 4px black;
+      padding: 0.25rem 0.75rem 0.25rem 0.75rem;
+      margin-top: 2rem;
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .haiku-container {
+    button {
+      font-size: 1rem;
+      text-shadow: 0 1px 4px black;
+      padding: 0.25rem 0.5rem 0.25rem 0.5rem;
+      margin-top: 1.75rem;
+      border-radius: 0.4rem;
+    }
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .haiku-container {
+    button {
+      margin-top: 1.5rem;
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .haiku-container {
+    button {
+      font-size: 14px;
+      text-shadow: 0 1px 2px black;
+      margin-top: 1.5rem;
+    }
+  }
+}

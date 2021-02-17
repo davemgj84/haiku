@@ -4,7 +4,7 @@ import "../styles/responsive/Haiku-Responsive.scss";
 
 const Haiku = (props) => {
   return (
-    <div className="haiku">
+    <section className="haiku">
       <p>{props.first}</p>
       <p>{props.second}</p>
       <p>{props.third}</p>
@@ -18,7 +18,7 @@ const Haiku = (props) => {
           ></i>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

@@ -34,7 +34,6 @@
     hr {
       width: 90%;
       margin-bottom: 1rem;
-      box-shadow: 0 1px 4px black;
     }
     p {
       font-size: 1rem;
@@ -62,22 +61,16 @@
     hr {
       width: 80%;
       margin-bottom: 0.75rem;
-      box-shadow: 0 1px 4px black;
     }
     p {
-      font-size: 1rem;
       letter-spacing: 0;
       text-shadow: 0 1px 2px black;
       margin-bottom: 0.75rem;
     }
     .author-and-info {
       .author {
-        font-size: 1rem;
         letter-spacing: 0;
         text-shadow: 0 1px 2px black;
-      }
-      .info-button {
-        font-size: 1rem;
       }
     }
   }
@@ -85,24 +78,17 @@
 
 @media screen and (max-width: 480px) {
   .haiku {
-    padding: 1rem;
     width: 320px;
     border-radius: 0 60px 0 60px;
     hr {
       margin-bottom: 0.75rem;
-      box-shadow: 0 1px 4px black;
     }
     p {
       font-size: 14px;
-      letter-spacing: 0;
-      text-shadow: 0 1px 2px black;
-      margin-bottom: 0.75rem;
     }
     .author-and-info {
       .author {
         font-size: 14px;
-        letter-spacing: 0;
-        text-shadow: 0 1px 2px black;
       }
       .info-button {
         font-size: 14px;
@@ -113,27 +99,19 @@
 
 @media screen and (max-width: 320px) {
   .haiku {
-    padding: 1rem;
-    width: 320px;
     border-radius: 0 0 0 0;
-    hr {
-      margin-bottom: 0.75rem;
-      box-shadow: 0 1px 4px black;
-    }
+  }
+}
+
+@media screen and (max-width: 280px) {
+  .haiku {
+    width: 280px;
     p {
-      font-size: 14px;
-      letter-spacing: 0;
-      text-shadow: 0 1px 2px black;
-      margin-bottom: 0.75rem;
+      font-size: 12px;
     }
     .author-and-info {
       .author {
-        font-size: 14px;
-        letter-spacing: 0;
-        text-shadow: 0 1px 2px black;
-      }
-      .info-button {
-        font-size: 14px;
+        font-size: 12px;
       }
     }
   }

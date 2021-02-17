@@ -38,16 +38,19 @@ const Banner = (props) => {
             having five "moras," and the middle line having seven (referred to
             as the 5-7-5 structure). Since the moras do not translate well into
             English, the haiku has been adapted to where syllables are used as
-            moras. <br />
-            <br /> Haiku poems started out as a popular activity in the 9th-12th
+            moras.
+          </p>
+          <p>
+            Haiku poems started out as a popular activity in the 9th-12th
             centuries in Japan called "tanka." A tanka was a progressive poem,
             where one person would write the first three lines with a 5-7-5
             structure, and the next person would add a section with a 7-7
             structure. The chain would continue in this fashion.
-            <br />
-            <br /> The first verse was called a "hokku" and set the mood for the
-            rest of the verses. Sometimes there were hundreds of verses and
-            authors of the hokku were often admired for their skill. In the 19th
+          </p>
+          <p>
+            The first verse was called a "hokku" and set the mood for the rest
+            of the verses. Sometimes there were hundreds of verses and authors
+            of the hokku were often admired for their skill. In the 19th
             century, the hokku took on a life of its own and began to be written
             and read as an individual poem. The word haiku is derived from
             hokku.

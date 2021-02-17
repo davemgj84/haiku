@@ -1,13 +1,12 @@
 .haiku-container {
-  height: 90vh;
+  height: 100vh;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   position: relative;
   button {
-    // position: absolute;
-    // bottom: 9rem;
     font-family: "Eagle Lake", cursive;
     font-size: 1.5rem;
     text-shadow: 0 3px 5px black;
