@@ -8,7 +8,7 @@
 
 # Location of deployed application
 
-- The application is deployed via Netlify and be visited here:
+- The application is deployed via Netlify and can be visited here:
 
   - https://haiku-app-by-david-jardine.netlify.app/
 
