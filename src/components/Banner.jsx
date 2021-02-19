@@ -55,6 +55,26 @@ const Banner = (props) => {
             and read as an individual poem. The word haiku is derived from
             hokku.
           </p>
+          <h2>Evolution of the Haiku</h2>
+          <p>
+            The evolution of haiku might be perceived as a natural process, like
+            anything else in life, but a dedication to its authenticity has
+            preserved its core principles.
+          </p>
+          <p>
+            While master poets in the 1800s, such as Issa, wrote their haiku in
+            the traditional 5-7-5 pattern - if read in Japanese - the premise
+            was still the same as it is today. These master poets contemplated
+            small snippets of time, used imagery in their language, and sought
+            out a sense of enlightenment in their prose.
+          </p>
+          <p>
+            More recently, poets like Jack Kerouac paved the way for a freer
+            rhythm in haiku. However, the same tiny moments in time are still
+            captured in a very colorful and enlightened manner. A haiku remains
+            reserved for those special moments in life when you want to examine
+            the very nature of existence.
+          </p>
           <p className="references">
             <a
               href="https://examples.yourdictionary.com/examples-of-haiku-poems.html"
