@@ -7,7 +7,7 @@
   border-radius: 0 120px 0 120px;
   box-shadow: 0 3px 10px black;
   width: 700px;
-  transition: 0.5s ease-in-out;
+  height: 385px;
   animation: fadeIn 1s;
   hr {
     width: 100%;
@@ -16,7 +16,6 @@
     border: 1px solid rgba(255, 255, 255, 0.8);
     border-top: 0;
     box-shadow: 0 2px 4px black;
-    transition: 0.5s ease-in-out;
   }
   p {
     font-family: "Eagle Lake", cursive;
@@ -25,7 +24,7 @@
     text-shadow: 0 3px 5px black;
     margin-top: 0;
     margin-bottom: 2rem;
-    transition: 0.5s ease-in-out;
+    animation: fadeIn 1s;
   }
   .author-and-info {
     display: flex;
