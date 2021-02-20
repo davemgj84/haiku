@@ -426,6 +426,13 @@ const haikuArray = [
     third: "My pajamas",
     author: "Jack Kerouac",
   },
+  {
+    id: 60,
+    first: "Now gathering",
+    second: "Now scattering",
+    third: "Fireflies over the river",
+    author: "Natsume Sōseki",
+  },
 ];
 
 export default haikuArray;
