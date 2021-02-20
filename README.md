@@ -21,6 +21,7 @@ Once dependencies have been installed, and you may simply run `npm start` to ope
 ## Dependencies Include:
 
 - React - ^17.0.1
+- React-Css-Transition - ^0.7.4
 - Node-Sass - ^4.14.1
 
 # Screenshots
