@@ -510,6 +510,62 @@ const haikuArray = [
     third: "Creep eastward",
     author: "Yosa Buson",
   },
+  {
+    id: 72,
+    first: "Purple Lupins",
+    second: "Shore up the road bank",
+    third: "Lilies in the swamp",
+    author: "Winona Baker",
+  },
+  {
+    id: 73,
+    first: "Brave dandelions",
+    second: "Golden one day, the next",
+    third: "Ghosts blown by wind",
+    author: "Winona Baker",
+  },
+  {
+    id: 74,
+    first: "Gone the summer rain",
+    second: "Water-colored rainbow",
+    third: "Remnants in the sky",
+    author: "Winona Baker",
+  },
+  {
+    id: 75,
+    first: "A fine September",
+    second: "Even yellow jackets drunk",
+    third: "On late blackberries",
+    author: "Winona Baker",
+  },
+  {
+    id: 76,
+    first: "One by one",
+    second: "Small boats to moorage",
+    third: "Birds to nest",
+    author: "Winona Baker",
+  },
+  {
+    id: 77,
+    first: "Softly indented stars",
+    second: "Butter yellow moon",
+    third: "Round as water",
+    author: "Winona Baker",
+  },
+  {
+    id: 78,
+    first: "Sun polished snow",
+    second: "The black crow circles",
+    third: "A shadow moves",
+    author: "Winona Baker",
+  },
+  {
+    id: 79,
+    first: "Big beautiful land",
+    second: "Maple syrup and pancakes",
+    third: "Beaver, Moose and Deer",
+    author: "David Darbyshire",
+  },
 ];
 
 export default haikuArray;
