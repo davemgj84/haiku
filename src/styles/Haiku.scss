@@ -7,7 +7,6 @@
   border-radius: 0 120px 0 120px;
   box-shadow: 0 3px 10px black;
   width: 700px;
-  height: 385px;
   animation: fadeIn 1s;
   hr {
     width: 100%;
@@ -24,7 +23,7 @@
     text-shadow: 0 3px 5px black;
     margin-top: 0;
     margin-bottom: 2rem;
-    animation: fadeIn 1s;
+    animation: fadeIn 0.5s;
   }
   .author-and-info {
     display: flex;
