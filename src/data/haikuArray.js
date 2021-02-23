@@ -566,6 +566,41 @@ const haikuArray = [
     third: "Beaver, Moose and Deer",
     author: "David Darbyshire",
   },
+  {
+    id: 80,
+    first: "Like crunchy cornflakes",
+    second: "Gold leaves rustle underfoot",
+    third: "Beauty in decay",
+    author: "Paul Holmes",
+  },
+  {
+    id: 81,
+    first: "You and me alone",
+    second: "Madness of world locked away",
+    third: "Peace and quiet reigns",
+    author: "Paul Holmes",
+  },
+  {
+    id: 82,
+    first: "Calm as a river",
+    second: "Tranquility in my heart",
+    third: "Blue summer skies reign",
+    author: "Paul Holmes",
+  },
+  {
+    id: 83,
+    first: "Beautiful sunrise",
+    second: "On a warm summer morning",
+    third: "I wait for day's start",
+    author: "David Fox",
+  },
+  {
+    id: 84,
+    first: "Rain danced on tin roof",
+    second: "Play acoustic rhythm and blues",
+    third: "Makes my heart dance too",
+    author: "Arun Bahadur Gurung",
+  },
 ];
 
 export default haikuArray;
