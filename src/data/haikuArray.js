@@ -601,6 +601,41 @@ const haikuArray = [
     third: "Makes my heart dance too",
     author: "Arun Bahadur Gurung",
   },
+  {
+    id: 85,
+    first: "The sky I see",
+    second: "Seems full of",
+    third: "Magnolia blossoms",
+    author: "Natsume Sōseki",
+  },
+  {
+    id: 86,
+    first: "Looking up",
+    second: "What a high pagoda",
+    third: "In the autumn sky",
+    author: "Masaoka Shiki",
+  },
+  {
+    id: 87,
+    first: "A dog howling",
+    second: "Sound of footsteps",
+    third: "Longer nights",
+    author: "Masaoka Shiki",
+  },
+  {
+    id: 88,
+    first: "Everything I touch",
+    second: "With Tenderness, alas",
+    third: "Pricks like a bramble",
+    author: "Kobayashi Issa",
+  },
+  {
+    id: 89,
+    first: "Give me a homeland",
+    second: "And a passionate woman",
+    third: "And a winter alone",
+    author: "Kobayashi Issa",
+  },
 ];
 
 export default haikuArray;
