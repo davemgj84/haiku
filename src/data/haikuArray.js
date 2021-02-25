@@ -636,6 +636,13 @@ const haikuArray = [
     third: "And a winter alone",
     author: "Kobayashi Issa",
   },
+  {
+    id: 90,
+    first: "On a branch",
+    second: "Floating downriver",
+    third: "A cricket, singing.",
+    author: "Kobayashi Issa",
+  },
 ];
 
 export default haikuArray;
