@@ -699,6 +699,13 @@ const haikuArray = [
     third: "Whispers wistfully",
     author: "Lucia Fisher",
   },
+  {
+    id: 99,
+    first: "The moment two bubbles",
+    second: "Are united, they both vanish",
+    third: "A lotus blooms",
+    author: "Murakami Kijo",
+  },
 ];
 
 export default haikuArray;
