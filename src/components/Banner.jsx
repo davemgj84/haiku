@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "../styles/Banner.scss";
 import "../styles/responsive/Banner-Responsive.scss";
 
@@ -78,8 +78,8 @@ const Banner = (props) => {
           <p className="references">
             <a
               href="https://examples.yourdictionary.com/examples-of-haiku-poems.html"
-              rel="noreferrer"
               target="_blank"
+              rel="noopener noreferrer"
             >
               <i className="fas fa-link"></i> Source
             </a>
